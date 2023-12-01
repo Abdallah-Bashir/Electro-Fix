@@ -42,4 +42,5 @@ img {
 .fixer-button:hover {
   color: rgb(44, 92, 76);
   border-color: aqua;
+  transition-delay: 32ms;
 }

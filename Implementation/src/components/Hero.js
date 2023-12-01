@@ -4,7 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 function Hero() {
   return (
     <div className="hero">
-      <p>
+      <p className="paragraph" style={{ textDecoration: "none" }}>
         Tired of waiting for unreliable handymen? With our website, you can find
         and hire
       </p>

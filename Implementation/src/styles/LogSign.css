@@ -1,0 +1,47 @@
+@import "../App.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 60%;
+  margin: auto;
+  border: 2px solid #897e7e;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.buttons > a {
+  background-color: rgb(13, 122, 95);
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+}
+
+.logo {
+  display: flex;
+  width: 20%;
+  justify-content: flex-start;
+  margin: 0;
+}
