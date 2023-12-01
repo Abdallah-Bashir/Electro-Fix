@@ -1,13 +1,17 @@
+import LoginModal from "./components/LoginModal";
 import "./App.css";
 import Home from "./Home";
-import Navigation from "./components/Navigation";
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Login" element={<LoginModal />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

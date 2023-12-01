@@ -34,7 +34,7 @@ p {
 }
 
 .search-bar > input {
-  width: 250px;
+  width: 100%;
   border: none;
   outline: none;
   font-size: 17px;
@@ -42,7 +42,4 @@ p {
 
 .search-icon {
   cursor: pointer;
-}
-
-.search-icon:hover {
 }
